@@ -8,11 +8,12 @@
     "start:dev": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
   },
-  "author": "Vahid Jabarouti", 
+  "author": "Vahid Jabarouti",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "mongoose": "^6.0.10",
     "morgan": "^1.10.0"
   }
 }
